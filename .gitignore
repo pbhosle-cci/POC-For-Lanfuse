@@ -1,0 +1,70 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+
+# =========================
+# Virtual Environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE / Editor
+# =========================
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Cache / Temp
+# =========================
+.cache/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# =========================
+# Langfuse / LLM Artifacts (optional safety)
+# =========================
+langfuse.db
+traces/
+outputs/
+
+# =========================
+# Uvicorn / FastAPI
+# =========================
+*.pid
